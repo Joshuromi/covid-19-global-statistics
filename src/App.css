@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(135deg, #c3cfe2 100%, #f5f7fa 20%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    text-align: center;
+    width: 18rem;
+    margin-bottom: 30px;
+    height: fit-content;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+                0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.date {
+    text-align: center;
+}
+
